@@ -1,0 +1,16 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F103C6 -BIN -LHF -DL -SSA -O11111114 -fo8 -N"C:\Users\Dell\Downloads\Embeded Systems\Exam1\Exam_1_test.mcpar" -SP"C:\Users\Dell\Downloads\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Dell\Downloads\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"C:\Users\Dell\Downloads\Embeded Systems\Exam1\" -SP"C:\Users\Dell\Downloads\Mikroelektronika\mikroC PRO for ARM\Packages\Memory manager dlmalloc\Uses\" -SP"C:\Users\Dell\Downloads\Embeded Systems\Stopwatch\" -IP"C:\Users\Dell\Downloads\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -IP"C:\Users\Dell\Downloads\Embeded Systems\Exam1\" -IP"C:\Users\Dell\Downloads\Mikroelektronika\mikroC PRO for ARM\Packages\Memory manager dlmalloc\Uses\" "Exam_1_test.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_101_102_103.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_CType.emcl" "__Lib_Sprintf.emcl" "__Lib_Button.emcl" "__Lib_I2C_1.emcl" "__Lib_LcdConsts.emcl" "__Lib_Lcd.emcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Dell\Downloads\Embeded Systems\Stopwatch'	 
+diagnostics: 0	122	Compilation Started	Exam_1_test.c
+hint: 0	1004	interrupt handler (timerInterruptFunction at 0x002C)	Exam_1_test.c
+hint: 0	1004	interrupt handler (STRAT at 0x0016)	Exam_1_test.c
+hint: 0	1004	interrupt handler (PAUSE at 0x0017)	Exam_1_test.c
+hint: 0	1004	interrupt handler (RESET at 0x0018)	Exam_1_test.c
+diagnostics: 113	123	Compiled Successfully	Exam_1_test.c
+diagnostics: 0	127	All files Compiled in 266 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 33   Dynamic RAM (bytes): 10201	Static RAM (bytes): 33   Dynamic RAM (bytes): 10201
+hint: 0	1144	Used ROM (bytes): 10787 (33%)  Free ROM (bytes): 21981 (67%)	Used ROM (bytes): 10787 (33%)  Free ROM (bytes): 21981 (67%)
+diagnostics: 0	125	Project Linked Successfully	Exam_1_test.mcpar
+diagnostics: 0	128	Linked in 438 ms	 
+diagnostics: 0	129	Project 'Exam_1_test.mcpar' completed: 1032 ms	 
+diagnostics: 0	103	Finished successfully: 23 Dec 2023, 05:50:43	Exam_1_test.mcpar
